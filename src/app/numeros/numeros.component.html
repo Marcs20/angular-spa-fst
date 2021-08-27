@@ -1,0 +1,21 @@
+<h1>tabela</h1>
+
+<label>Números aleatórios de 0 a:</label>
+<input class="form-control" type="number" [(ngModel)]="n">
+<h2>Números aleatórios gerados de 0 a {{n}}</h2>
+<table class="table table-bordered table-dark">
+  <thead>
+    <tr>
+      <td>{{getRandom(n)}}</td>
+      <td>{{getRandom(n)}}</td>
+      <td>{{getRandom(n)}}</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{getRandom(n)}}</td>
+      <td>{{getRandom(n)}}</td>
+      <td>{{getRandom(n)}}</td>
+    </tr>
+  </tbody>
+</table>
